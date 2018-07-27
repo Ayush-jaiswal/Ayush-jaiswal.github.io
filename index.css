@@ -86,13 +86,7 @@ p{
 	background-color: #e6ffe6;
 
 }
-.column_second{
-	background-image: url("wai1.png");
-	 background-repeat:no-repeat;
-	 background-size:100% 100%;
-	  padding: 0;
-	  margin: 0;
-}
+
 
 .togg{
 	display: block;
