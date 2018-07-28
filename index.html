@@ -456,21 +456,21 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
 <script type="text/javascript">
-var chatbox=document.getElementById("chatbox");
-var chatclick=document.getElementById("chatclick");
-var profilechange=document.getElementById("profilechange");
-var overlay=document.getElementsByClassName("overlay1");
-var chatlist=document.getElementById("chatlist");
-var backarrow=document.getElementById("backarrow");
+let chatbox=document.getElementById("chatbox");
+let chatclick=document.getElementById("chatclick");
+let profilechange=document.getElementById("profilechange");
+let overlay=document.getElementsByClassName("overlay1");
+let chatlist=document.getElementById("chatlist");
+let backarrow=document.getElementById("backarrow");
 
 
-chatclick.addEventListener("click",function(){
+chatclick.addEventListener("click",()=>{
 chatbox.classList.toggle("chatbox1");
 chatbox.classList.toggle("togg");
 
 
 });
-profilechange.addEventListener("click",function(){
+profilechange.addEventListener("click",()=>{
 
 overlay[0].classList.toggle("overlay3");
 chatlist.classList.toggle("chatlist2");
